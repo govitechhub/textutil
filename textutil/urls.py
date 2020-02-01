@@ -22,5 +22,5 @@ urlpatterns = [
     path('',view.index ,name='index'),
     path('about/',view.about,name="about" ),
     path('analyze', view.analyze, name='analyze'),
-    path('navigationBar',view.navigationBar,name='navigationBar')
+    #path('navigationBar',view.navigationBar,name='navigationBar')
 ]
